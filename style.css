@@ -1,0 +1,241 @@
+header {
+background: linear-gradient(70deg, #eaefd3, #93c0a4 );
+text-decoration: none;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding: 1%;
+
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-of-site{
+    padding-left: 10%;
+    color: black;
+    text-decoration:solid;
+}
+
+main {
+    background-color: white;
+}
+
+.nav-link{
+    color: black;
+    cursor: pointer;
+}
+
+
+.pikyOfPooch{ 
+    border-radius: 70%;
+    width: 70px;
+
+}
+.feature-link {
+    padding: 10% 10% 0 10%;
+    font-size: 100px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    color: black;
+    opacity: 1;
+    font-size: 10em;
+}
+
+.names-of-features{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20%;
+    font-size: 2em; 
+}
+.feature-link :hover{
+    opacity: 1;
+    color: grey;
+    transition: 0.4s opacity;
+}
+
+.day-of-week {
+    display: flex;
+    justify-content: space-between;
+}
+
+.day-of-week h4{
+    width: 100%;
+    text-align: center;
+}
+
+/* Sale Page */
+
+
+.note-of-week  {
+    display: flex;
+    justify-content: space-between; 
+    gap: 1em;
+    padding-bottom: 2%;
+}
+
+.note-of-week :hover {
+    opacity: 1;
+    transition: 0.4s opacity;
+}
+
+
+.note-of-week div{
+    border: 1px solid lightgrey;
+    width: 100%;
+    aspect-ratio: 1;
+    -webkit-box-shadow: 15px 15px 21px -5px rgba(0,0,0,0.32);
+    -moz-box-shadow: 15px 15px 21px -5px rgba(0,0,0,0.32);
+    box-shadow: 15px 15px 21px -5px rgba(0,0,0,0.32);
+    opacity: 0.6;
+    
+}
+
+.text {
+    background-color: rgba(0,0,0,0);
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 1em;
+}
+
+#default-row {
+    display:none;
+}
+
+
+.pink {
+    background-image: linear-gradient(to top, rgba(5, 1, 1, 0), rgb(246, 135, 135));
+}
+
+.orange {
+    background-image: linear-gradient(to top, rgba(5, 1, 1, 0), rgb(248, 180, 91));
+}
+
+.yellow{
+    background-image: linear-gradient(to top, rgba(5, 1, 1, 0), rgb(241, 229, 121));
+}
+
+.green {
+    background-image: linear-gradient(to top, rgba(5, 1, 1, 0), rgb(162, 214, 150));
+}
+
+.blue {
+    background-image: linear-gradient(to top, rgba(5, 1, 1, 0), rgb(133, 133, 240));
+}
+.plus-button{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+button{
+    border-radius: 40px;
+    width: 15vh;
+    height: 5vh;
+    background-color: #293E1F ;
+    -webkit-box-shadow: 15px 15px 21px -5px rgba(0,0,0,0.32);
+    -moz-box-shadow: 15px 15px 21px -5px rgba(0,0,0,0.32);
+    box-shadow: 15px 15px 21px -5px rgba(0,0,0,0.32);
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.next-door {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-next-door {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.h1-style {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.left {
+    width:50%;
+    padding: 5%;
+    padding-top: 10%;
+    text-align: center;
+   
+}
+
+.right {
+    
+    right:0; 
+    width:50%;
+    padding: 10%;
+}
+
+footer{
+    background: linear-gradient(70deg,  #eaefd3, #93c0a4 );
+    text-decoration: none;
+    font-family: Arial;
+    padding: 1%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+    margin-top: auto;
+    gap: 10px
+}
+
+.web-link-footer{
+    width: 100%; 
+} 
+
+footer i {
+    font-size: 2em;
+}
+
+/* Contact Page*/
+
+h1 {
+    margin: 1em auto;
+    text-align: center;
+  }
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+  
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+  input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #93c0a4;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+input, textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
